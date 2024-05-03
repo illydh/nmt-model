@@ -1,16 +1,12 @@
-# Spanish-to-English Translator (Neural Machine Translation)
+# Indendent Study Research Project (updated Spring 2024)
 
-## Credit to repositories
+## Abstract
+This repository compiles my efforts in researching the effect of different type of attention mechanisms on the accuracy of Neural Machine Translation models. I attempt to keep the overall structure of these models as consistent as possible to avoid discrepencies during data extraction. I use their [BERTScore](https://arxiv.org/abs/1904.09675) as the automated method of choice to evaluate the machine-generated translation scripts.  
 
-As a part of a research project, I originally cloned this repo by [@GargPriyanshu1112](https://github.com/GargPriyanshu1112/English-to-Spanish-Translator) who provided the basic framework of the bi-directional encoder-decoder using a Gated Recurrent Unit (GRU)RNN and implemented the additive algorithm in the attention layer. 
+## Background Information
+### Neural Machine Translation (in progress)
 
-The idea of expanding my research to the performance of this translation model with different attention mechanisms followed after studying this repo by [@monk1337](https://github.com/monk1337/Various-Attention-mechanisms) which delves into the implementation of various algorithms for computing the attention weights.
-
-## Evaluation
-I am evaluating the performance of each model using an imported BERTScore package, and by graphing their perplexity over epoch calculations.
-
-## Dataset
-[The Dataset](https://www.kaggle.com/datasets/lonnieqin/englishspanish-translation-dataset)
+## [The Dataset](https://www.kaggle.com/datasets/lonnieqin/englishspanish-translation-dataset) 
 
 
 
